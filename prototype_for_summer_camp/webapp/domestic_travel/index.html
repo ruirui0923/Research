@@ -9,33 +9,51 @@
 	<div class="container">
 		<h1>BRMS Prototype</h1>
 		<article>
-			<h2>国内出張費申請</h2>
-			<form action="#">
-			<section>
-				<h5>出張期間</h5>
+			<h2>国内出張申請</h2>
+			<form action="./before/index.html">
+				<section>
+					<h5>氏名</h5>
+					<p>
+						<input type="text"></p>
+				</section>
+				<section>
+					<h5>職位</h5>
+					<p>
+						<select>
+							<option value="professor">教授・助教授・専任講師・教諭・および管理職の職員</option>
+							<option value="asssistant professor">助教・助教諭および上記以外の者</option>
+						</select>
+					</p>
+				</section>
+				<section>
+					<h5>出張期間</h5>
+					<p>
+						<input type="date">
+						から
+						<input type="date">明日以降の日付を記入</p>
+				</section>
+				<section>
+					<h5>用務地</h5>
+					<p>
+						<input type="text"></p>
+				</section>
+				<section>
+					<h5>用務先</h5>
+					<p>
+						<input type="text"></p>
+				</section>
+				<section>
+					<h5>用務の概要</h5>
+					<p>
+						<textarea cols="30" rows="10"></textarea>
+					</p>
+				</section>
 				<p>
-					<input type="date">
-					から
-					<input type="date"></p>
-			</section>
-			<section>
-				<h5>出張先の最寄り駅</h5>
-				<p>
-					<input type="text"></p>
-			</section>
-			<section>
-				<h5>職位</h5>
-				<p>
-					<select>
-						<option value="professor">教授・助教授・専任講師・教諭・および管理職の職員</option>
-						<option value="asssistant professor">助教・助教諭および上記以外の者</option>
-					</select>
-				</p>
-			</section>
+					<input class="btn btn-success" type="submit" value="次へ"></p>
+			</form>
 			<p>
-			<input class="btn btn-success" type="submit" value="次へ">
-		</p>
-		</form>
+				<a href="../index.html" class="btn btn-warning">戻る</a>
+			</p>
 		</article>
 
 	</div>

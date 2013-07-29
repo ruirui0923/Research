@@ -1,7 +1,7 @@
 .container {
 	margin-left: 20px;
 }
-ul {
+.list-none {
 	list-style-type: none;
 }
 li {
@@ -9,4 +9,19 @@ li {
 }
 article {
 	margin: 5px 0;
+}
+.font-red{
+	color: red;
+}
+.bg-gray {
+	background: #ededed;
+	width: 600px;
+	border-radius: 15px;
+	padding: 1px 20px;
+}
+.mg-vertical10 {
+	margin: 10px 0;
+}
+.mg-top100 {
+	margin-top: 100px;
 }
